@@ -37,22 +37,15 @@ As a team, we encountered many challenges in structuring the website due to a ga
 
 ## Next Steps
 
-In the future, we plan to develop a user-friendly frontend interface that will allow students to interact with the system seamlessly. Using machine learning through Python and ChatGPT algorithms will enable us to create custom questions and options for each category. Additionally, we aim to add challenge questions when the user gets a certain amount of questions correct. Based on the points calculated from all the questions, a leaderboard and ranking will be added against other users which will be integrated through a backend server which will store user information, scores and types of questions answers. This will motivate the students to use this platform more often and they will feel inspired from gaining knowledge. This experience has reinforced our commitment to creating impactful solutions that facilitate students and learning opportunities for youth in underdeveloped countries.
+In the future, we plan to develop a user-friendly frontend interface that will allow students to interact with the system seamlessly. Using machine learning through Python and ChatGPT algorithms will enable us to create custom questions and options for each category. Additionally, we aim to add challenge questions when the user gets a certain amount of questions correct. Based on the points calculated from all the questions, a leaderboard and ranking will be added against other users which will be integrated through a backend server that will store user information, scores and types of questions answers. This will motivate the students to use this platform more often and they will feel inspired from gaining knowledge. This experience has reinforced our commitment to creating impactful solutions that facilitate students and learning opportunities for youth in underdeveloped countries.
 
 ## Getting Started
 Instructions on how to set up and run your project locally.
 
 ```bash
 # Example commands
-git clone [[your-repo-link]](https://github.com/Kesshhavvvv/Forks-Up-Feedback) 
-cd Forks-Up-Feedback
+git clone [[your-repo-link]](https://github.com/Kesshhavvvv/Quiz Quest) 
+cd Quiz Quest
 npm install
 npm start
 ```
-
-- ✨ [2019 Team 3](https://github.com/2019-Arizona-Opportunity-Hack/Team-3)
-- ✨ [2019 Team 6](https://github.com/2019-Arizona-Opportunity-Hack/Team-6)
-- ✨ [2020 Team 2](https://github.com/2020-opportunity-hack/Team-02)
-- ✨ [2020 Team 4](https://github.com/2020-opportunity-hack/Team-04)
-- ✨ [2020 Team 8](https://github.com/2020-opportunity-hack/Team-08)
-- ✨ [2020 Team 12](https://github.com/2020-opportunity-hack/Team-12)
