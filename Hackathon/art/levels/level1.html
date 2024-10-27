@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art: Level 1</title>
+    <!-- Bootstrap CSS (optional for better styling) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <h1 id="artHeader">Art: Level 1</h1>
+
+    <!-- Question 1 -->
+    <div class="container mt-4"> 
+        <button class="questionBtn">Question 1: Who painted the Mona Lisa?</button>
+        <form class="questionForm"> 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" value="Leonardo da Vinci">
+                <label class="form-check-label">Leonardo da Vinci</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" value="Pablo Picasso">
+                <label class="form-check-label">Pablo Picasso</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" value="Vincent van Gogh">
+                <label class="form-check-label">Vincent van Gogh</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" value="Andy Warhol">
+                <label class="form-check-label">Andy Warhol</label>
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <!-- Question 2 -->
+    <div class="container">
+        <button class="questionBtn">Question 2: What painting technique uses dots of color to create images when viewed from a distance?</button>
+        <form class="questionForm"> 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" value="Pointillism">
+                <label class="form-check-label">Pointillism</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" value="Surrealism">
+                <label class="form-check-label">Surrealism</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" value="Layering">
+                <label class="form-check-label">Layering</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" value="Blending">
+                <label class="form-check-label">Blending</label>
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <!-- Question 3 -->
+    <div class="container">
+        <button class="questionBtn">Question 3: The painting The Starry Night was created by which artist?</button>
+        <form class="questionForm">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" value="Johannes Vermeer">
+                <label class="form-check-label">Johannes Vermeer</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" value="Jackson Pollock">
+                <label class="form-check-label">Jackson Pollock</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" value="Vincent Van Gogh">
+                <label class="form-check-label">Vincent Van Gogh</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" value="Salvador Dali">
+                <label class="form-check-label">Salvador Dali</label>
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <!-- Add more questions as needed -->
+
+    <!-- Submit Button-->
+    <button class="btn btn-primary mt-3" onclick="submitForm()">Submit</button>
+
+    <!-- Result Display -->
+    <h2 id="resultDisplay" class="mt-4"></h2>
+
+    <script>
+        // Define correct answers
+        const correctAnswers = {
+            question1: "Leonardo da Vinci",
+            question2: "Pointillism",
+            question3: "Vincent Van Gogh"
+            
+            // Add more questions as needed
+        };
+
+        function submitForm() {
+            let score = 0;
+            const totalQuestions = Object.keys(correctAnswers).length;
+            
+            // Loop through each question
+            for (let question in correctAnswers) {
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                
+                // Check if the selected option matches the correct answer
+                if (selectedOption && selectedOption.value === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            // Display the result
+            document.getElementById("resultDisplay").innerText = `You scored ${score} out of ${totalQuestions}`;
+        }
+    </script>
+
+    <style> 
+        body {
+            margin: 0;
+            background-color: #fadbaa;
+            text-align: center;
+        }
+        #artHeader {
+            color: rgb(0, 0, 61);
+            font-size: xx-large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 800;
+        }
+        .questionBtn {
+            background-color: #89629e;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            font-size: 22px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .form-check {
+            color: crimson;
+            font-size: medium;
+            font-weight: 600;
+            padding: 3px;
+        }
+        .btn-primary {
+            background-color: #4CAF50;
+            border: none;
+            padding: 14px 20px;
+            font-size: 22px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+    </style>
+</body>
+</html>

@@ -8,16 +8,19 @@
 
 <body>
     <div> 
-        <h1> Chosen Category: Art</h1>
-        <h2> Please choose a level: </h2>
+        <h1 id="chsnArtHdr"> Chosen Category: Art</h1>
+        <h2 id="chooseLvlHdr"> Please choose a level: </h2>
         <br>
         <div class="container">
-            <a href="level1.html">
+            <a href="../art/levels/level1.html">
                 <button>Level 1</button>
             </a>
             <br>
             <br>
-            <button>Level 2</button>
+            <a href="../art/levels/level2.html">
+                <button>Level 2</button>
+            </a>
+            
         </div>
     </div>
     
@@ -29,18 +32,23 @@
 
 <style>
     body {
-        font-family: Arial, sans-serif;
+       /*  font-family: Arial, sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
+        margin: 0; */
+
         margin: 0;
-        background-color: #6a735b;
+        background-color: #f6b686;
+        text-align: center;
     }
     
     button {
         padding: 12px 22px;
         font-size: 22px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight:700;
         color: #fff;
         background-color: #007bff;
         border: none;
@@ -60,6 +68,18 @@
         height: 100vh;
     
     } */
+
+    #chsnArtHdr{
+        color:rgb(116, 0, 87);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+
+    #chooseLvlHdr{
+        color:rgb(11, 41, 69);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
     
 </style>
 
