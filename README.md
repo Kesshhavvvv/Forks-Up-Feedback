@@ -1,8 +1,4 @@
-# Forks-Up-Feedback
-
-## Quick Links
-- [Hackathon Details]()
-- [Problem Statement]()
+# Quiz Quest
 
 ## Team "The Trivia Trio"
 - Bhavana Kannan [(GitHub profile link)](https://github.com/BK5102)
@@ -15,10 +11,10 @@ For our project with SoDA's track Educational Technology, we helped create a sim
 
 **Project Inspiration**
 
-Our team was inspired by SoDA's educational track because, as students, we recognize how transformative education can be. We've seen how students in low-income countries often face significant barriers to accessing quality learning materials, with many lacking internet connectivity and reliable resources. This challenge inspired us to develop Forks-Up-Feedback, a simple and static website aimed at promoting education and providing a meaningful learning experience.
+Our team was inspired by SoDA's educational track because, as students, we recognize how transformative education can be. We've seen how students in low-income countries often face significant barriers to accessing quality learning materials, with many lacking internet connectivity and reliable resources. This challenge inspired us to develop Quiz Quest, a simple and static website aimed at promoting education and providing a meaningful learning experience.
 
 ## What It Does
-Forks-Up-Feedback is a lightweight, static trivia website with a focus on making education accessible in areas with limited internet access. The website features four core educational categories, each with two levels of difficulty, offering students a simple yet effective way to learn and test their knowledge. With Forks-Up-Feedback, we aim to offer a fun and educational resource that’s accessible to students regardless of their location or socioeconomic background. We believe that even small, engaging interactions with educational content can make a big difference by encouraging curiosity, reinforcing classroom concepts, and helping young learners feel empowered to explore new topics on their own terms. 
+Quiz Quest is a lightweight, static trivia website with a focus on making education accessible in areas with limited internet access. The website features four core educational categories, each with two levels of difficulty, offering students a simple yet effective way to learn and test their knowledge. With Quiz Quest, we aim to offer a fun and educational resource that’s accessible to students regardless of their location or socioeconomic background. We believe that even small, engaging interactions with educational content can make a big difference by encouraging curiosity, reinforcing classroom concepts, and helping young learners feel empowered to explore new topics on their own terms. 
 
 **Key Features**
 
