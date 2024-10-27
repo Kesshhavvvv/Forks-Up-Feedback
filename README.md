@@ -41,9 +41,7 @@ As a team, we encountered many challenges in structuring the website due to a ga
 
 ## Next Steps
 
-In the future, we plan to develop a user-friendly frontend interface that will allow students to interact with the system seamlessly. This will enable 
-
-This experience has reinforced our commitment to creating impactful solutions that facilitate students and learning opportunities for youth in underdeveloped countries
+In the future, we plan to develop a user-friendly frontend interface that will allow students to interact with the system seamlessly. Using machine learning through Python and ChatGPT algorithms will enable us to create custom questions and options for each category. Additionally, we aim to add challenge questions when the user gets a certain amount of questions correct. Based on the points calculated from all the questions, a leaderboard and ranking will be added against other users which will be integrated through a backend server which will store user information, scores and types of questions answers. This will motivate the students to use this platform more often and they will feel inspired from gaining knowledge. This experience has reinforced our commitment to creating impactful solutions that facilitate students and learning opportunities for youth in underdeveloped countries.
 
 ## Getting Started
 Instructions on how to set up and run your project locally.
